@@ -32,7 +32,18 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia.eot');
+    src: url('Georgia.eot?#iefix') format('embedded-opentype'),
+        url('Georgia.woff2') format('woff2'),
+        url('Georgia.woff') format('woff'),
+        url('Georgia.ttf') format('truetype'),
+        url('Georgia.svg#Georgia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -3036,4 +3047,19 @@ button, [type="button"], [type="reset"], [type="submit"] {
     background: #202877;
     color: #fff;
     opacity: 1;
+}
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: bold;
+}
+.logo:hover {
+    color: #fff;
+
+}
+.logo-36{
+    font-size: 36px;
+}
+.logo-24{
+    font-size: 24px;
 }
